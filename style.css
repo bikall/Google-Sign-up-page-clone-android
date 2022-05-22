@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+#container{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  flex-direction: column;
+  overflow: clip;
+}
+#logodiv{
+  display: flex;
+  justify-content: center;
+  height: 9vh;
+}
+#logo{
+  height: 11vh;
+}
+#signin{
+  display: flex;
+  /*border: 1px solid black;*/
+  font-size: 3.7vh;
+  font-family: 'Roboto',sans-serif;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.2vh;
+}
+#Continue{
+  font-size: 2.3vh;
+  margin-top: 2vh;
+  opacity:.9;
+}
+#gmaillogin{
+  margin-left:-1vw;
+  height: 7vh;
+  width: 84vw;
+  margin-top: 6vh;
+  border-radius: 1%;
+  border: 1px solid rgba(0, 0, 0, .1 );
+  font-size:2.3vh;
+  outline: none;
+  opacity:.9;
+  padding-left: 4%;
+}
+#gmaillogin::placeholder{
+ font-size: 2.4vh;
+}
+#btndiv{
+  display: flex;
+  width: 100vw;
+  margin-top: 2vh;
+  margin-left: 14vw;
+}
+#forgot{
+  border: none;
+  background-color: white;
+  color:rgba(38, 120, 232, .9);
+  font-weight: 500;
+  font-size: 2.2vh;
+  margin-left: 0.6vw;
+}
+#fsp{
+  height:8vh;
+  width: 85vw;
+  border: 1px solid black;
+  border-radius: 1.5vw;
+  position: relative;
+}
+#fid{
+  width: 85vw;
+  border: none; 
+  outline: none;
+}
+#legend{
+  position: absolute;
+  top:29.5%;
+  width: 25vw;
+  font-size: 1.8vh;
+  background-color: white;
+  left:10%;
+  display:none;
+  font-family: sans-serif;
+}
+#s1{
+  opacity: .9;
+}
+#nyc{
+  font-family: sans-serif;
+  font-size: 2.2vh;
+  margin-top: 7.4vh;
+  width: 80vw;
+  margin-left:-4vw;
+  font-weight: 400;
+  color:grey
+}
+#lmb{
+  border: none;
+  background-color: white;
+  color:rgba(38, 120, 232, 1);
+  font-weight: 500;
+  font-size: 2.2vh;
+}
+#createandnext{
+  display: flex;
+width: 85vw;
+height: 15vh;
+justify-content: space-between;
+align-items: center;
+}
+#createacc{
+border: none;
+background-color: white;
+color:rgba(38, 120, 232, 1);
+font-weight: 500;
+font-size: 2.2vh;
+margin-left: 0.6vw;
+font-family: sans-serif;
+}
+#next{
+  background-color: rgba(38,120,232,1);
+  border:none;
+  outline: none;
+  color:white;
+  width: 22vw;
+  height: 6vh;
+  border-radius: 5%;
+  font-weight: 500;
+  font-size: 2.4vh;
+}
+#seldiv{
+  width:85vw;
+  margin-top: 12vh;
+}
+#sel{
+  font-size: 2vh;
+  border:none;
+  background-color: white;
+  outline:none;
+  opacity: .9;
+}
+
